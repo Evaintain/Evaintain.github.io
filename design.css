@@ -1,0 +1,213 @@
+@font-face {
+    font-family: '나눔스퀘어R';
+    src: url(../폰트/NanumSquareR.ttf);
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px;
+    transform: rotate(0.03deg);
+}
+
+.f_nav {
+    font-size: 35px;
+}
+
+.f_nav_white {
+    color: white;
+}
+
+.f_sm {
+    font-size: 12px;
+}
+
+.f_md {
+    font-size: 15px;
+}
+
+.f_lg {
+    font-size: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    a {
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+.container {
+    width: 805px;
+    height: 300px;
+    font-size: 0px;
+}
+
+.charbox {
+    width: 640px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background-color: #cccccc;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.header_img {
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 360px;
+    width: 45px;
+    height: 50px;
+    display: inline-block;
+}
+
+.content {
+    width: 100%;
+    height: 235px;
+    margin-top: 5px;
+    background-color: #ebebeb;
+    border-radius: 20px;
+}
+
+/* postion -> 공중에 뜸, 좌표이동가능 */
+.container-button {
+    padding: 15px;
+    background-color: pink;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+}
+
+.imgbox {
+    background-color: #6453fc;
+    border-radius: 20px;
+    width: 160px;
+    height: 100%;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img_size {
+    width: 160px;
+    height: 160px;
+    margin-top: 70px;
+}
+
+.h_font {
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.p_font {
+    margin-left: -68px;
+    display: inline-block;
+}
+
+.content_font {
+    margin-left: 15px;
+    margin-top: -8px;
+    color: #ababab;
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.nav-element {
+    width: 10%;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: grey;
+    margin: 5px;
+}
+
+.nav-left {
+    flex-grow: 1;
+}
+
+.nav-center {
+    flex-grow: 3;
+}
+
+.nav-right {
+    flex-grow: 2;
+}
+
+.nav-background-color {
+    background-color: #1f1e33;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: auto;
+}
+
+.overlay_font {
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.overlay_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.overlay_container:hover .overlay{
+    top: 75%;
+    opacity: 1;
+}
+
+progress {
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(207, 207, 207);
+    border: 2px soild #eee;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    border: 2px soild #eee;
+    border-radius: 10px;
+    background: linear-gradient(to right, #625aff, #3d33ff);
+}

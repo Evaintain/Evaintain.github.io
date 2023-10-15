@@ -1,0 +1,11 @@
+.ie-nav {
+    clear: both;
+}
+
+.ie-nav-left {
+    float: left;
+}
+
+.ie-nav-right {
+    float: right;
+}
